@@ -1,0 +1,7 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background matching your brand -->
+  <rect width="256" height="256" fill="#1a1a1a" rx="48"/>
+  
+  <!-- White play button triangle -->
+  <polygon points="96,64 96,192 176,128" fill="#ffffff"/>
+</svg>
