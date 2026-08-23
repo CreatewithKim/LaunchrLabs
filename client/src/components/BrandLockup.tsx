@@ -1,17 +1,16 @@
-/** Momentum System: compact LaunchrLabs lockup with the directional launch symbol. */
+/** Momentum System: supplied Launchr wordmark in a navy, white, and signal-green brand lockup. */
 import { Link } from "wouter";
 
-const MARK_URL = "/manus-storage/launchrlabs-africa-mark_228a5da3.png";
+const MARK_URL = "/manus-storage/LaunchrLogo_226fc4aa.jpeg";
 
 export function BrandLockup({ inverse = false }: { inverse?: boolean }) {
   return (
     <Link href="/" className="brand-lockup" aria-label="LaunchrLabs Africa home">
-      <img src={MARK_URL} alt="" className="brand-mark" />
+      <span className="brand-logo-crop"><img src={MARK_URL} alt="Launchr" className="brand-mark brand-mark--supplied" /></span>
       <span className={inverse ? "brand-wordmark brand-wordmark--inverse" : "brand-wordmark"}>
-        Launchr<span>Labs</span>
+        Labs
       </span>
       <span className={inverse ? "brand-region brand-region--inverse" : "brand-region"}>Africa</span>
     </Link>
   );
 }
-

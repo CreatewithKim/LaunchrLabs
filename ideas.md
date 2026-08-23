@@ -68,6 +68,7 @@ The logo is a compact directional “L” mark built from a split rising vector 
 
 ## Style Decisions
 
-- **Launch Green `#B7F53A` is reserved for primary actions, rails, active states, key numerals, and rare signature CTA fields.** A full green section may appear at most once per route and must carry dark directional momentum geometry.
+- **Supplied Launchr brand palette:** dark navy `#252734` is the primary canvas; paper white `#F7F8F2` carries type and contrast; signal green `#5AF56C` is reserved for action and momentum; deep patterned green `#183A37` supports quiet supporting details.
+- **Launchr signal green `#5AF56C` is reserved for primary actions, rails, active states, key numerals, and rare signature CTA fields.** A full green section may appear at most once per route and must carry dark directional momentum geometry.
 - **Every primary route includes a visible momentum system.** Numbered section labels work together with a persistent route rail, directional linework, or sequenced interface cue so the journey never reads as a simple stacked brochure.
 - **Imagery is treated as part of the system.** African founder and business moments are framed with dark crops, Launch Green signal accents, directional overlays, or product-interface labels; unmodified generic office imagery is avoided.
