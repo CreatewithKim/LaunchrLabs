@@ -1,5 +1,5 @@
-/** Momentum System: an editorial footer that keeps the next action and core route visible. */
-import { ArrowUpRight, Instagram, Linkedin, Mail } from "lucide-react";
+/** Momentum System: an editorial footer with concise route cues and the verified Launchr social channels. */
+import { ArrowUpRight, Facebook, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import { BrandLockup } from "@/components/BrandLockup";
 import { BookingCallout } from "@/components/BookingWorkflow";
@@ -29,8 +29,10 @@ export function SiteFooter() {
           <p>A modern digital launch and growth ecosystem for ambitious African businesses.</p>
           <div className="social-links" aria-label="Social channels">
             <a href="mailto:hello@launchrlabs.africa" aria-label="Email LaunchrLabs Africa"><Mail size={18} /></a>
-            <a href="#" aria-label="LaunchrLabs Africa on LinkedIn"><Linkedin size={18} /></a>
-            <a href="#" aria-label="LaunchrLabs Africa on Instagram"><Instagram size={18} /></a>
+            <a href="https://web.facebook.com/profile.php?id=61593483148807" target="_blank" rel="noreferrer" aria-label="LaunchrLabs Africa on Facebook"><Facebook size={18} /></a>
+            <a href="https://www.instagram.com/launchrlabsafrica/" target="_blank" rel="noreferrer" aria-label="LaunchrLabs Africa on Instagram"><Instagram size={18} /></a>
+            <a href="https://x.com/launchrlabs" target="_blank" rel="noreferrer" aria-label="LaunchrLabs on X"><Twitter size={18} /></a>
+            <a href="https://www.linkedin.com/company/launchr-labs-africa/" target="_blank" rel="noreferrer" aria-label="LaunchrLabs Africa on LinkedIn"><Linkedin size={18} /></a>
           </div>
         </div>
         <div className="footer-list">

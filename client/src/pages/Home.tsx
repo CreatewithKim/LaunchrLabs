@@ -1,4 +1,4 @@
-/** Momentum System: directional, editorial home page combining SaaS clarity with African founder momentum. */
+/** Momentum System: a performance-aware home page using an eager hero and deferred supporting imagery for founder momentum. */
 import { ArrowDownRight, ArrowRight, Bot, LayoutTemplate, MessageCircleMore, Sparkles } from "lucide-react";
 import { Link } from "wouter";
 import { BookingBenefits, BookingCallout } from "@/components/BookingWorkflow";
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
           <div className="hero-media">
             <div className="hero-media__frame">
-              <img src={HERO_URL} alt="Founder working with a digital business dashboard" />
+              <img src={HERO_URL} alt="Founder working with a digital business dashboard" fetchPriority="high" decoding="async" />
               <div className="hero-media__caption"><span>Launch signal</span><strong>Design × Automation × Growth</strong></div>
             </div>
             <div className="hero-corner-card"><span>Built for</span><strong>how African businesses actually grow online.</strong></div>
@@ -84,7 +84,7 @@ export default function Home() {
 
       <section className="systems-section">
         <div className="content-frame systems-grid">
-          <div className="systems-media"><img src={SYSTEMS_URL} alt="A smartphone and workflow objects representing connected business systems" /><span className="systems-media__signal"><i /> Customer flow / connected</span></div>
+          <div className="systems-media"><img src={SYSTEMS_URL} alt="A smartphone and workflow objects representing connected business systems" loading="lazy" decoding="async" /><span className="systems-media__signal"><i /> Customer flow / connected</span></div>
           <div className="systems-copy">
             <span className="eyebrow eyebrow--lime">Practical by design</span>
             <h2>AI and automation, translated into work that makes sense.</h2>
@@ -109,13 +109,13 @@ export default function Home() {
       <section className="builders-section">
         <div className="content-frame builders-grid">
           <div className="builders-copy"><span className="eyebrow">More than deliverables</span><h2>We are building a lab for African business builders.</h2><p>LaunchrLabs brings together hands-on delivery, practical education, useful templates, workshops, and a community that learns by doing.</p><Link href="/resources" className="button button--dark">Step into the learning lab <ArrowRight size={17} /></Link></div>
-          <div className="builders-media"><img src={BUILDERS_URL} alt="African founders collaborating in a creative workspace" /><span className="builders-media__label">Learn / build / launch</span></div>
+          <div className="builders-media"><img src={BUILDERS_URL} alt="African founders collaborating in a creative workspace" loading="lazy" decoding="async" /><span className="builders-media__label">Learn / build / launch</span></div>
         </div>
       </section>
 
       <section className="closing-section content-frame">
         <div className="closing-card">
-          <div className="closing-card__image"><img src={ORBIT_URL} alt="Abstract LaunchrLabs orbit mark" /></div>
+          <div className="closing-card__image"><img src={ORBIT_URL} alt="Abstract LaunchrLabs orbit mark" loading="lazy" decoding="async" /></div>
           <div className="closing-card__copy"><span className="eyebrow eyebrow--lime">The launch starts here</span><h2>Ready to make your business feel ready for the internet?</h2><p>Let’s look at the opportunity together and identify the next move that will matter most.</p><BookingCallout /></div>
         </div>
       </section>
