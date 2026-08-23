@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { BookingCallout } from "@/components/BookingWorkflow";
 import { PageLayout } from "@/components/PageLayout";
 
-const BUILDERS_URL = "/manus-storage/launchrlabs-africa-builders_518dbd68.jpg";
+const BUILDERS_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/dZuwKWLPIDaXCZgW.jpg";
 
 const beliefs = [
   "Launch before you feel completely ready.",

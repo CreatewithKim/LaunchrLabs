@@ -3,7 +3,7 @@ import { ArrowRight, BookOpenCheck, Lightbulb, UsersRound } from "lucide-react";
 import { BookingCallout } from "@/components/BookingWorkflow";
 import { PageLayout } from "@/components/PageLayout";
 
-const ORBIT_URL = "/manus-storage/launchrlabs-africa-orbit_5adf44de.jpg";
+const ORBIT_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/wCmpzdUIjnBtxawW.jpg";
 
 export default function Resources() {
   return <PageLayout>

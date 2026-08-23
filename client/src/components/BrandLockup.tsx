@@ -1,7 +1,7 @@
 /** Momentum System: supplied Launchr wordmark in a navy, white, and signal-green brand lockup. */
 import { Link } from "wouter";
 
-const MARK_URL = "/manus-storage/LaunchrLogo_226fc4aa.jpeg";
+const MARK_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/AjZcPpbQRfnkobiZ.jpeg";
 
 export function BrandLockup({ inverse = false }: { inverse?: boolean }) {
   return (

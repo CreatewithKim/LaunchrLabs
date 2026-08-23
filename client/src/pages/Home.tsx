@@ -4,10 +4,10 @@ import { Link } from "wouter";
 import { BookingBenefits, BookingCallout } from "@/components/BookingWorkflow";
 import { PageLayout } from "@/components/PageLayout";
 
-const HERO_URL = "/manus-storage/launchrlabs-africa-hero_64a4130b.jpg";
-const SYSTEMS_URL = "/manus-storage/launchrlabs-africa-systems_f0f5b9db.jpg";
-const BUILDERS_URL = "/manus-storage/launchrlabs-africa-builders_518dbd68.jpg";
-const ORBIT_URL = "/manus-storage/launchrlabs-africa-orbit_5adf44de.jpg";
+const HERO_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/RLytoPXbOQprGDrV.jpg";
+const SYSTEMS_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/nKziFCPptzBWvgMR.jpg";
+const BUILDERS_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/dZuwKWLPIDaXCZgW.jpg";
+const ORBIT_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/wCmpzdUIjnBtxawW.jpg";
 
 const services = [
   { icon: LayoutTemplate, number: "01", title: "Websites that earn trust", text: "Conversion-focused websites, launch pages, and mobile-first digital homes built to make your offer clear." },
