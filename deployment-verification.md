@@ -20,3 +20,7 @@ Verified on 23 August 2026 after restoring the correct route ownership.
 | LinkedIn | `linkedin.com/company/launchr-labs-africa` | Resolved publicly to the **Launchr Labs Africa** company page. |
 
 All four verified destinations were inserted exactly as provided in the site footer.
+
+## Performance and Brand Revision Deployment
+
+The repository commit `ec21001` completed successfully on both Vercel checks. The dedicated `launchr-labs` deployment now exposes the plain **Launchr** logo asset and all four supplied social channels in production.

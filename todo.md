@@ -27,3 +27,9 @@
 - [x] Improve desktop scaling behavior at common browser zoom levels and responsive widths.
 - [x] Add the supplied Facebook, Instagram, X, and LinkedIn links to the site footer.
 - [x] Validate the revised experience at desktop, zoomed desktop, and mobile breakpoints.
+
+## Supplied Logo Replacement
+
+- [x] Prepare the newly supplied Launchr logo as a compact web-ready asset.
+- [x] Replace the shared header, footer, and favicon logo references with the supplied asset.
+- [x] Validate the supplied logo on desktop, zoomed desktop, and mobile; the connected Vercel host will receive the final source revision next.
