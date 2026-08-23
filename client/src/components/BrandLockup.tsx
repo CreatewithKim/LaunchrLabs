@@ -1,7 +1,7 @@
 /** Momentum System: a plain Launchr icon-and-wordmark lockup with no patterned background or regional suffix. */
 import { Link } from "wouter";
 
-const MARK_URL = "/manus-storage/launchr-supplied-logo-transparent_31813775.png";
+const MARK_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/OVwyNQxIXuvuEsvp.png";
 
 export function BrandLockup({ inverse = false }: { inverse?: boolean }) {
   return (

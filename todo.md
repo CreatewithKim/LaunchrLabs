@@ -32,4 +32,10 @@
 
 - [x] Prepare the newly supplied Launchr logo as a compact web-ready asset.
 - [x] Replace the shared header, footer, and favicon logo references with the supplied asset.
-- [x] Validate the supplied logo on desktop, zoomed desktop, and mobile; the connected Vercel host will receive the final source revision next.
+- [x] Validate the supplied logo on desktop, zoomed desktop, mobile, and the connected Vercel host.
+
+## Production Logo Incident
+
+- [x] Inspect the current logo asset response from the Vercel-hosted LaunchrLabs site.
+- [x] Replace the Manus-only logo path with a portable public asset URL that Vercel can serve consistently.
+- [ ] Deploy and verify the corrected logo at `launchr-labs.vercel.app`.

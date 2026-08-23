@@ -24,3 +24,7 @@ All four verified destinations were inserted exactly as provided in the site foo
 ## Performance and Brand Revision Deployment
 
 The repository commit `ec21001` completed successfully on both Vercel checks. The dedicated `launchr-labs` deployment now exposes the plain **Launchr** logo asset and all four supplied social channels in production.
+
+## Supplied Logo Replacement
+
+The repository commit `5ec431c` deployed successfully to the dedicated `launchr-labs` host. Production now uses the supplied white-and-signal-green **Launchr** lockup as a tightly cropped transparent logo in the shared header and footer, with the same asset set as the favicon.
