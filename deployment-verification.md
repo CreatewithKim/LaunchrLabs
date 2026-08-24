@@ -28,3 +28,7 @@ The repository commit `ec21001` completed successfully on both Vercel checks. Th
 ## Supplied Logo Replacement
 
 The repository commit `5ec431c` deployed successfully to the dedicated `launchr-labs` host. Production now uses the supplied white-and-signal-green **Launchr** lockup as a tightly cropped transparent logo in the shared header and footer, with the same asset set as the favicon.
+
+## Production Asset Path Fix
+
+The former `/manus-storage/...` logo path was intercepted by the Vercel single-page rewrite and returned `index.html` rather than an image. Repository commit `d2f6e50` now uses a portable `files.manuscdn.com` PNG URL, which responds with `image/png` and is confirmed in the live Vercel header and footer.

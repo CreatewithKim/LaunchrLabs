@@ -1,0 +1,23 @@
+{
+  "name": "Launchr",
+  "short_name": "Launchr",
+  "description": "LaunchrLabs Africa — modern systems for African brands.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#252734",
+  "theme_color": "#252734",
+  "icons": [
+    {
+      "src": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/WnhVNckSbjIbQgRh.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663554302780/MxebwLmNTGNFurKb.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

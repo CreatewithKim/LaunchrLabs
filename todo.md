@@ -38,4 +38,10 @@
 
 - [x] Inspect the current logo asset response from the Vercel-hosted LaunchrLabs site.
 - [x] Replace the Manus-only logo path with a portable public asset URL that Vercel can serve consistently.
-- [ ] Deploy and verify the corrected logo at `launchr-labs.vercel.app`.
+- [x] Deploy and verify the corrected logo at `launchr-labs.vercel.app`.
+
+## Browser and Mobile Icon Update
+
+- [x] Prepare an icon-only Launchr play-symbol asset at favicon and mobile app-icon resolutions.
+- [x] Add the icon-only asset to browser favicon, Apple touch icon, and web-app manifest metadata.
+- [ ] Deploy and verify the metadata on the repository-connected Vercel host.
