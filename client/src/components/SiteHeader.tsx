@@ -1,4 +1,4 @@
-/** Momentum System: mobile-first navigation with a persistent, obvious booking route. */
+/** Momentum System: mobile-first navigation with a persistent, outcome-led route into the bottleneck-first booking conversation. */
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "wouter";
@@ -61,4 +61,3 @@ export function SiteHeader() {
     </header>
   );
 }
-

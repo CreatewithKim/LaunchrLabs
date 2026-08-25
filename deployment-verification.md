@@ -32,3 +32,7 @@ The repository commit `5ec431c` deployed successfully to the dedicated `launchr-
 ## Production Asset Path Fix
 
 The former `/manus-storage/...` logo path was intercepted by the Vercel single-page rewrite and returned `index.html` rather than an image. Repository commit `d2f6e50` now uses a portable `files.manuscdn.com` PNG URL, which responds with `image/png` and is confirmed in the live Vercel header and footer.
+
+## Browser and Mobile Icon
+
+The repository commit `a32fa07` deployed successfully to `launchr-labs`. The browser favicon now references the icon-only Launchr play symbol, and the production manifest includes 180px Apple touch and 512px mobile web-app icon definitions under the short app name **Launchr**.

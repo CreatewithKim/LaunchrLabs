@@ -1,4 +1,4 @@
-/** Momentum System: a direct, human booking path that moves from context to Calendly without friction. */
+/** Momentum System: a bottleneck-first booking path that preserves the direct Calendly workflow while making the session outcome explicit. */
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { ArrowRight, CalendarDays, CheckCircle2, Clock3, ShieldCheck } from "lucide-react";
 import {
@@ -107,9 +107,9 @@ export function BookingProvider({ children }: { children: React.ReactNode }) {
             <div className="booking-panel">
               <DialogHeader className="booking-dialog__header">
                 <span className="eyebrow eyebrow--lime">Working session / 30 minutes</span>
-                <DialogTitle className="booking-dialog__title">Bring the opportunity. Leave with direction.</DialogTitle>
+                <DialogTitle className="booking-dialog__title">Bring the bottleneck. Leave with a practical next step.</DialogTitle>
                 <DialogDescription className="booking-dialog__description">
-                  Tell us a little about what you are building, then choose a time that works for you.
+                  Tell us what is slowing the business down, then choose a time that works for you.
                 </DialogDescription>
               </DialogHeader>
 
@@ -142,16 +142,16 @@ export function BookingProvider({ children }: { children: React.ReactNode }) {
                   />
                 </label>
                 <label>
-                  <span>What would make this session valuable?</span>
+                  <span>What bottleneck would you like to fix?</span>
                   <textarea
                     rows={3}
                     value={details.message}
                     onChange={(event) => setDetails({ ...details, message: event.target.value })}
-                    placeholder="A launch, redesign, customer journey, automation, or growth challenge"
+                    placeholder="A manual process, missed follow-up, disconnected tool, website, or growth challenge"
                   />
                 </label>
                 <button className="button button--lime button--full" type="submit">
-                  Continue to the calendar <ArrowRight size={17} aria-hidden="true" />
+                  See the next practical step <ArrowRight size={17} aria-hidden="true" />
                 </button>
               </form>
               <p className="booking-privacy"><ShieldCheck size={15} aria-hidden="true" /> Your details remain in this browser while you select a time.</p>
@@ -175,11 +175,11 @@ export function BookingProvider({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function BookingCallout({ compact = false }: { compact?: boolean }) {
+export function BookingCallout({ compact = false, label }: { compact?: boolean; label?: string }) {
   const { openBooking } = useBooking();
   return (
     <button onClick={openBooking} className={compact ? "button button--lime button--small" : "button button--lime"}>
-      {compact ? "Book a session" : "Book a working session"} <ArrowRight size={16} aria-hidden="true" />
+      {label ?? (compact ? "Start a conversation" : "Build my growth system")} <ArrowRight size={16} aria-hidden="true" />
     </button>
   );
 }
@@ -189,8 +189,7 @@ export function BookingBenefits() {
     <div className="booking-benefits" aria-label="What to expect from the working session">
       <span><CalendarDays size={16} aria-hidden="true" /> A focused 30 minutes</span>
       <span><Clock3 size={16} aria-hidden="true" /> Clear next steps</span>
-      <span><CheckCircle2 size={16} aria-hidden="true" /> No generic sales script</span>
+      <span><CheckCircle2 size={16} aria-hidden="true" /> No obligation. One practical next step.</span>
     </div>
   );
 }
-
